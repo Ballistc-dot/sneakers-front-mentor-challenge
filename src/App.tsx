@@ -108,11 +108,11 @@ function App() {
           </div>
           <SlideSwiper />
         </main>
-        <div className=" md:ml-10 flex items-center lg:items-start md:mt-16 flex-col gap-2 w-full m-0 p-8 md:w-auto">
+        <div className=" md:ml-10 flex max-w-[100%]  items-center lg:items-start md:mt-16 flex-col gap-2 w-full m-0 p-8 md:w-auto sm:max-w-none">
           <span className="text-orange-300 font-bold text-sm text -tracking-tighter">
             SNEAKER COMPANY
           </span>
-          <div className="items-center flex flex-col gap-0 w-full">
+          <div className="items-center flex flex-col justify-center sm:gap-4 w-full">
             <h1 className="font-bold text-5xl max-w-md">
               Fall Limited Edition Sneakers
             </h1>
@@ -121,8 +121,8 @@ function App() {
               Featuring a durable rubbber outer sole, they'll withstand
               everything the weather can offer.
             </p>
-            <div className="flex flex-col w-full">
-              <div className="flex justify-start items-center w-full">
+            <div className="flex flex-col w-full lg:max-w-none items-start lg:justify-start max-w-sm sm:max-w-md ">
+              <div className="flex justify-start items-center lg:justify-start max-w-sm sm:max-w-md">
                 <h2 className="font-bold text-2xl">$125.00</h2>
                 <span className="flex items-center justify-center ml-4 rounded-md px-2 h-6 bg-orange-100 text-orange-300 font-bold">
                   50%
