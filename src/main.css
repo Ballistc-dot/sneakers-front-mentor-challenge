@@ -1,0 +1,18 @@
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ @layer base {
+     body {
+         @apply antialiased;
+         @apply bg-white;
+         @apply text-base;
+         @apply font-normal;
+         @apply font-KumbhSans;
+     }
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
