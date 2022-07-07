@@ -74,7 +74,7 @@ function App() {
               className="animate-toggleIn sm:w-[90%]  2xl:w-[90%] 2xl:h-[32rem] md:rounded-3xl h-auto w-[100%]"
             />
 
-            <div className="mt-10 flex md:gap-2 2xl:gap-6 gap-1 p-12 ">
+            <div className="flex md:gap-2 2xl:gap-6 gap-1 p-12 ">
               {productsImages.map((image) => {
                 if (selectedImage != image) {
                   return (
@@ -123,12 +123,12 @@ function App() {
             </p>
             <div className="flex flex-col w-full lg:max-w-none items-start lg:justify-start max-w-sm sm:max-w-md ">
               <div className="flex justify-start items-center lg:justify-start max-w-sm sm:max-w-md">
-                <h2 className="font-bold text-2xl">$125.00</h2>
-                <span className="flex items-center justify-center ml-4 rounded-md px-2 h-6 bg-orange-100 text-orange-300 font-bold">
+                <h2 className="font-bold text-3xl">$125.00</h2>
+                <span className="flex items-center justify-center ml-4 rounded-md px-2 h-6 bg-orange-100 text-orange-300 text-xl font-bold">
                   50%
                 </span>
               </div>
-              <del className="text-sm text-zinc-300 font-bold">$250.00</del>
+              <del className="text-md text-zinc-300 font-bold">$250.00</del>
             </div>
           </div>
           <div className=" flex gap-5 w-[100%] flex-col lg:flex-row md:gap-12 text-center items-center mt-6">
