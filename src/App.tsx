@@ -121,7 +121,7 @@ function App() {
               Featuring a durable rubbber outer sole, they'll withstand
               everything the weather can offer.
             </p>
-            <div>
+            <div className="flex flex-col w-full">
               <div className="flex justify-start items-center w-full">
                 <h2 className="font-bold text-2xl">$125.00</h2>
                 <span className="flex items-center justify-center ml-4 rounded-md px-2 h-6 bg-orange-100 text-orange-300 font-bold">
